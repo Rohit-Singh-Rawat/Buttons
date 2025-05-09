@@ -27,20 +27,20 @@ function ButtonShow({ children, code, siteName, siteUrl }: Props) {
 
 			<button
 				onClick={handleCopy}
-				className='absolute top-2 right-2 p-1 bg-white rounded border border-border opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-gray-100'
+				className='absolute top-1 right-1 p-1 bg-white rounded border border-border sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 hover:bg-gray-100'
 				aria-label='Copy code'
 			>
 				{copied ? (
 					<IconCheck
-						size={16}
+						size={12}
 						className='text-green-600'
 					/>
 				) : (
-					<IconCopy size={16} />
+					<IconCopy size={12} />
 				)}
 			</button>
 			{siteName && siteUrl && (
-				<div className='absolute bottom-2 left-1/2 -translate-x-1/2 text-xs text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+				<div className='absolute bottom-2 left-1/2 -translate-x-1/2 text-xs text-gray-500 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300'>
 					<a
 						href={siteUrl}
 						target='_blank'

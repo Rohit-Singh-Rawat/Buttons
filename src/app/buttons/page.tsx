@@ -31,7 +31,7 @@ function page({}: Props) {
 						<GitHubIcon className='invert-100 size-6' />
 					</button>
 				</header>
-				<div className='flex p-5 w-full h-full gap-5 relative '>
+				<div className='flex p-5 w-full h-fit justify-center sm:justify-start gap-5 relative flex-wrap'>
 
 					{buttons.map((button) => (
 						<ButtonShow

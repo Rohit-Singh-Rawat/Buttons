@@ -4,7 +4,7 @@ type Props = {};
 
 const topBar = (props: Props) => {
 	return (
-		<div className='flex items-center justify-center absolute top-0 left-0  pt-3 w-full z-50'>
+		<div className='sm:flex items-center justify-center absolute top-0 left-0 hidden md:pt-3 w-full z-50'>
 			<Logo
 				size='sm'
 				iconOnly

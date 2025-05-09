@@ -6,10 +6,10 @@ import GitHubIcon from '../icons/github';
 type Props = {};
 const Hero = (props: Props) => {
 	return (
-		<div className='flex flex-col items-center justify-center p-4 sm:p-8 md:p-14 h-full'>
+		<div className='flex flex-col items-center justify-center p-4 sm:p-8 md:p-14 h-full overflow-hidden'>
 			<Box className='bg-white items-center justify-center flex w-full  mx-auto relative '>
 				<div className='flex flex-col items-center justify-center inset-0 overflow-hidden absolute '>
-					<div className='absolute bottom-0 left-60 w-full rotate-[-40deg]'>
+					<div className='absolute bottom-0 left-10 sm:left-60 w-full rotate-[-40deg]'>
 						<Marquee
 							duration={10}
 							fontSize='sm'
@@ -18,7 +18,7 @@ const Hero = (props: Props) => {
 							direction='right'
 						/>
 					</div>
-					<div className='absolute top-0 -left-50 w-full  rotate-[-40deg]'>
+					<div className='absolute top-0 -left-20 sm:-left-50 w-full rotate-[-40deg]'>
 						<Marquee
 							duration={10}
 							fontSize='sm'

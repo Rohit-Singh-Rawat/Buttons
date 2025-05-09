@@ -22,6 +22,26 @@ const buttons: ButtonType[] = [
 		siteName: 'Acctual',
 		siteUrl: 'https://app.acctual.com/',
 	},
+	{
+		id: 'firecrwal-dark',
+		button: (
+			<button className='h-9 px-4 rounded-[10px] text-sm font-medium flex items-center justify-center transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50 bg-[#36322F] text-[#fff] hover:bg-[#4a4542] disabled:bg-[#8c8885] disabled:hover:bg-[#8c8885] [box-shadow:inset_0px_-2.108433723449707px_0px_0px_#171310,_0px_1.2048193216323853px_6.325301647186279px_0px_rgba(58,_33,_8,_58%)] hover:translate-y-[1px] hover:scale-[0.98] hover:[box-shadow:inset_0px_-1px_0px_0px_#171310,_0px_1px_3px_0px_rgba(58,_33,_8,_40%)] active:translate-y-[2px] active:scale-[0.97] active:[box-shadow:inset_0px_1px_1px_0px_#171310,_0px_1px_2px_0px_rgba(58,_33,_8,_30%)] disabled:shadow-none disabled:hover:translate-y-0 disabled:hover:scale-100 w-full whitespace-nowrap text-center'>
+				Click Me
+			</button>
+		),
+		siteName: 'Firecrawl',
+		siteUrl: 'https://www.firecrawl.dev/',
+	},
+	{
+		id: 'firecrwal-light',
+		button: (
+			<button className='h-9 rounded-md text-sm font-medium flex items-center transition-all duration-200 disabled:cursor-not-allowed disabled:opacity-50 bg-[#fff] text-[#36322F] hover:bg-[#f0f0f0] disabled:bg-[#f5f5f5] disabled:text-[#8c8885] disabled:hover:bg-[#f5f5f5] [box-shadow:0_0_0_1px_hsl(35deg_22%_90%),_0_1px_2px_hsl(32,_10%,_68%),_0_3px_3px_hsl(32,11%,82%),_0_-2px_hsl(58,4%,93%)_inset] hover:translate-y-[1px] hover:scale-[0.98] hover:[box-shadow:0_0_0_1px_hsl(35deg_22%_90%),_0_1px_2px_hsl(32,_10%,_68%)] active:translate-y-[2px] active:scale-[0.97] active:[box-shadow:0_0_0_1px_hsl(35deg_22%_90%),_inset_0_1px_1px_hsl(32,_10%,_68%)] disabled:shadow-none disabled:hover:translate-y-0 disabled:hover:scale-100 px-2.5 py-1 w-full justify-center'>
+				Click Me
+			</button>
+		),
+		siteName: 'Firecrawl',
+		siteUrl: 'https://www.firecrawl.dev/',
+	},
 ];
 
 export default buttons;
